@@ -32,15 +32,15 @@ unsigned int lineSensorValues[3];
 const uint16_t lineSensorThreshold = 1000;
 
 // The speed that the robot uses when backing up.
-const uint16_t reverseSpeed = 20;
+const uint16_t reverseSpeed = 200;
 
 // The speed that the robot uses when turning.
-const uint16_t turnSpeed = 20;
+const uint16_t turnSpeed = 200;
 
 // The speed that the robot usually uses when moving forward.
 // You don't want this to be too fast because then the robot
 // might fail to stop when it detects the white border.
-const uint16_t forwardSpeed = 20;
+const uint16_t forwardSpeed = 200;
 
 // These two variables specify the speeds to apply to the motors
 // when veering left or veering right.  While the robot is
